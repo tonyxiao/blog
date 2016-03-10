@@ -9,7 +9,7 @@
     "deploy-master": "gh-pages -d public -b master",
     "deploy-gh-pages": "gh-pages -d public",
     "deploy": "gh-pages -d public -b master && gh-pages -d public",
-    "clean": "rm -rf /usr/local/lib/node_modules/gh-pages/.cache/"
+    "clean": "rm -rf node_modules/gh-pages/.cache"
   },
   "keywords": [
     "gatsby"
