@@ -7,7 +7,8 @@
     "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy-master": "gh-pages -d public -b master",
-    "deploy-gh-pages": "gh-pages -d public"
+    "deploy-gh-pages": "gh-pages -d public",
+    "deploy": "gh-pages -d public -b master && gh-pages -d public",
   },
   "keywords": [
     "gatsby"
