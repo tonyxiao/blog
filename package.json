@@ -5,7 +5,9 @@
   "main": "n/a",
   "scripts": {
     "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy-master": "gh-pages -d public -b master",
+    "deploy-gh-pages": "gh-pages -d public"
   },
   "keywords": [
     "gatsby"
@@ -26,6 +28,7 @@
     "eslint": "^1.10.3",
     "eslint-config-airbnb": "^5.0.1",
     "eslint-plugin-react": "^4.0.0",
+    "gh-pages": "^0.11.0",
     "react-transform-catch-errors": "^1.0.0",
     "react-transform-hmr": "^1.0.0",
     "redbox-react": "^1.0.1"
