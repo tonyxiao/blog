@@ -8,7 +8,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy-master": "gh-pages -d public -b master",
     "deploy-gh-pages": "gh-pages -d public",
-    "deploy": "gh-pages -d public -b master && gh-pages -d public",
     "clean": "rm -rf node_modules/gh-pages/.cache"
   },
   "keywords": [
